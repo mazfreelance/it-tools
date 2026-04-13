@@ -30,6 +30,12 @@ docker run -d --name it-tools --restart unless-stopped -p 8080:80 corentinth/it-
 docker run -d --name it-tools --restart unless-stopped -p 8080:80 ghcr.io/corentinth/it-tools:latest
 ```
 
+**From GitHub Pages:**
+
+1. Fork this repository
+2. In your fork, go to **Settings > Pages** and set **Source** to **GitHub Actions**
+3. The included `github-pages.yml` workflow will automatically build and deploy to `https://<your-username>.github.io/<repo-name>/` on every push to `main`
+
 **Other solutions:**
 
 - [Cloudron](https://www.cloudron.io/store/tech.ittools.cloudron.html)
