@@ -33,18 +33,9 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
-      - name: Determine base URL
-        id: base-url
-        run: |
-          if [ -f public/CNAME ]; then
-            echo "base_url=/" >> "$GITHUB_OUTPUT"
-          else
-            echo "base_url=/${{ github.event.repository.name }}/" >> "$GITHUB_OUTPUT"
-          fi
-
       - name: Build the app
         env:
-          BASE_URL: ${{ steps.base-url.outputs.base_url }}
+          BASE_URL: /${{ github.event.repository.name }}/
         run: pnpm build
 
       - name: Add 404 fallback for SPA routing
