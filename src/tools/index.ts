@@ -88,11 +88,28 @@ import { tool as uuidGenerator } from './uuid-generator';
 import { tool as macAddressLookup } from './mac-address-lookup';
 import { tool as xmlFormatter } from './xml-formatter';
 import { tool as yamlViewer } from './yaml-viewer';
+import { tool as jsonSortMaster } from './json-sort-master';
+import { tool as csvToJson } from './csv-to-json';
+import { tool as csvToData } from './csv-to-data';
+import { tool as excelToData } from './excel-to-data';
+import { tool as markdownEditor } from './markdown-editor';
 
 export const toolsByCategory: ToolCategory[] = [
   {
     name: 'Crypto',
-    components: [tokenGenerator, hashText, bcrypt, uuidGenerator, ulidGenerator, cypher, bip39, hmacGenerator, rsaKeyPairGenerator, passwordStrengthAnalyser, pdfSignatureChecker],
+    components: [
+      tokenGenerator,
+      hashText,
+      bcrypt,
+      uuidGenerator,
+      ulidGenerator,
+      cypher,
+      bip39,
+      hmacGenerator,
+      rsaKeyPairGenerator,
+      passwordStrengthAnalyser,
+      pdfSignatureChecker,
+    ],
   },
   {
     name: 'Converter',
@@ -118,6 +135,9 @@ export const toolsByCategory: ToolCategory[] = [
       jsonToXml,
       markdownToHtml,
       markdownDiff,
+      jsonSortMaster,
+      csvToData,
+      excelToData,
     ],
   },
   {
@@ -139,6 +159,7 @@ export const toolsByCategory: ToolCategory[] = [
       httpStatusCodes,
       jsonDiff,
       safelinkDecoder,
+      markdownEditor,
     ],
   },
   {
@@ -154,6 +175,7 @@ export const toolsByCategory: ToolCategory[] = [
       jsonViewer,
       jsonMinify,
       jsonToCsv,
+      csvToJson,
       sqlPrettify,
       chmodCalculator,
       dockerRunToDockerComposeConverter,
@@ -166,7 +188,14 @@ export const toolsByCategory: ToolCategory[] = [
   },
   {
     name: 'Network',
-    components: [ipv4SubnetCalculator, ipv4AddressConverter, ipv4RangeExpander, macAddressLookup, macAddressGenerator, ipv6UlaGenerator],
+    components: [
+      ipv4SubnetCalculator,
+      ipv4AddressConverter,
+      ipv4RangeExpander,
+      macAddressLookup,
+      macAddressGenerator,
+      ipv6UlaGenerator,
+    ],
   },
   {
     name: 'Math',
@@ -196,5 +225,5 @@ export const toolsByCategory: ToolCategory[] = [
 
 export const tools = toolsByCategory.flatMap(({ components }) => components);
 export const toolsWithCategory = toolsByCategory.flatMap(({ components, name }) =>
-  components.map(tool => ({ category: name, ...tool })),
+  components.map((tool) => ({ category: name, ...tool })),
 );

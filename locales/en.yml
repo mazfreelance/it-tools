@@ -105,6 +105,66 @@ tools:
     title: JSON to CSV
     description: Convert JSON to CSV with automatic header detection.
 
+  csv-to-json:
+    title: CSV to JSON
+    description: Convert CSV to JSON with automatic header detection.
+    texts:
+      message-provided-csv-is-not-valid: Provided CSV is not valid.
+      label-typed-values: Typed Values
+      input-label-your-raw-csv: Your raw CSV
+      input-placeholder-paste-your-raw-csv-here: Paste your raw CSV here...
+      output-label-json-version-of-your-csv: JSON version of your CSV
+
+  csv-to-data:
+    title: Csv to Data
+    description: Convert CSV file to JSON, YAML, CSV, SQL INSERT, XML, Markdown or XLSX
+    texts:
+      label-json: JSON
+      label-yaml: YAML
+      label-sql-insert: SQL INSERT
+      label-csv-comma: CSV (comma)
+      label-csv-semicolon: CSV (semicolon)
+      label-csv-tab: CSV (tab)
+      label-markdown: Markdown
+      label-xml: XML
+      title-csv-converter: CSV Converter
+      label-file: File
+      label-content: Content
+      title-drag-and-drop-a-csv-file-here-or-click-to-select-a-file: Drag and drop a CSV file here, or click to select a file
+      label-paste-your-csv-content: 'Paste your CSV Content:'
+      placeholder-your-csv: Your CSV...
+      label-typed-values: Typed Values
+      label-nestify-a-b-c-to-nested-objects: Nestify ('a.b.c' to nested objects)
+      label-select-output-format: 'Select output format:'
+      placeholder-select-format: Select format
+      label-table-name: 'Table Name:'
+      title-converted-data: Converted data
+      tag-convert: Convert
+      label-xlsx: XLSX
+
+  excel-to-data:
+    title: Excel to data
+    description: Convert XLSX file to JSON, YAML, CSV, SQL INSERT, XML or Markdown
+    texts:
+      label-json: JSON
+      label-yaml: YAML
+      label-sql-insert: SQL INSERT
+      label-csv-comma: CSV (comma)
+      label-csv-semicolon: CSV (semicolon)
+      label-csv-tab: CSV (tab)
+      label-markdown: Markdown
+      label-xml: XML
+      title-xlsx-converter: XLSX Converter
+      title-drag-and-drop-a-xlsx-here-or-click-to-select-a-file: Drag and drop a XLSX here, or click to select a file
+      label-select-sheet-to-use: 'Select Sheet to use:'
+      placeholder-select-sheet: Select sheet
+      label-select-output-format: 'Select output format:'
+      placeholder-select-format: Select format
+      label-nestify-a-b-c-to-nested-objects: Nestify ('a.b.c' to nested objects)
+      label-table-name: 'Table Name:'
+      title-converted-data: Converted data
+      tag-convert: Convert
+
   camera-recorder:
     title: Camera recorder
     description: Take a picture or record a video from your webcam or camera.
@@ -293,6 +353,10 @@ tools:
     title: Markdown diff
     description: Compare two Markdown documents and see the differences between them.
 
+  markdown-editor:
+    title: Markdown Editor
+    description: Simple Markdown Editor
+
   jwt-parser:
     title: JWT parser
     description: Parse and decode your JSON Web Token (jwt) and display its content.
@@ -332,6 +396,10 @@ tools:
   pdf-signature-checker:
     title: PDF signature checker
     description: Verify the signatures of a PDF file. A signed PDF file contains one or more signatures that may be used to determine whether the contents of the file have been altered since the file was signed.
+
+  json-sort-master:
+    title: JSON sort master
+    description: Sort your JSON by keys and values.
 
   json-minify:
     title: JSON minify

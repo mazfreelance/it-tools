@@ -74,3 +74,73 @@ tools:
   markdown-diff:
     title: Markdown diff
     description: Compare two Markdown documents and see the differences between them.
+
+  json-sort-master:
+    title: JSON сортувальник
+    description: Сортуйте ваш JSON за ключами та значеннями.
+
+  csv-to-json:
+    title: 'CSV в JSON'
+    description: 'Конвертуйте CSV в JSON з автоматичним визначенням заголовків.'
+    texts:
+      message-provided-csv-is-not-valid: Наданий CSV-файл недійсний.
+      label-typed-values: Типізовані значення
+      input-label-your-raw-csv: Ваш необроблений CSV-файл
+      input-placeholder-paste-your-raw-csv-here: Вставте сюди свій необроблений CSV-файл...
+      output-label-json-version-of-your-csv: JSON-версія вашого CSV-файлу
+
+  csv-to-data:
+    title: CSV до даних
+    description: >-
+      Конвертувати CSV-файл у JSON, YAML, CSV, SQL INSERT, XML, Markdown або
+      XLSX
+    texts:
+      label-json: JSON
+      label-yaml: YAML
+      label-sql-insert: SQL-вставка
+      label-csv-comma: CSV (кома)
+      label-csv-semicolon: CSV (крапка з комою)
+      label-csv-tab: CSV (вкладка)
+      label-markdown: Уцінка
+      label-xml: XML
+      title-csv-converter: CSV-конвертер
+      label-file: Файл
+      label-content: Зміст
+      title-drag-and-drop-a-csv-file-here-or-click-to-select-a-file: Перетягніть сюди CSV-файл або клацніть, щоб вибрати файл
+      label-paste-your-csv-content: 'Вставте вміст CSV-файлу:'
+      placeholder-your-csv: Ваш CSV-файл...
+      label-typed-values: Типізовані значення
+      label-nestify-a-b-c-to-nested-objects: Вкладення (&#39;abc&#39; для вкладених об&#39;єктів)
+      label-select-output-format: 'Виберіть формат виводу:'
+      placeholder-select-format: Виберіть формат
+      label-table-name: 'Назва таблиці:'
+      title-converted-data: Конвертовані дані
+      tag-convert: Конвертувати
+      label-xlsx: XLSX
+
+  excel-to-data:
+    title: Excel до даних
+    description: Конвертувати файл XLSX у JSON, YAML, CSV, SQL INSERT, XML або Markdown
+    texts:
+      label-json: JSON
+      label-yaml: YAML
+      label-sql-insert: SQL-вставка
+      label-csv-comma: CSV (кома)
+      label-csv-semicolon: CSV (крапка з комою)
+      label-csv-tab: CSV (вкладка)
+      label-markdown: Уцінка
+      label-xml: XML
+      title-xlsx-converter: XLSX конвертер
+      title-drag-and-drop-a-xlsx-here-or-click-to-select-a-file: Перетягніть XLSX сюди або клацніть, щоб вибрати файл
+      label-select-sheet-to-use: 'Виберіть аркуш для використання:'
+      placeholder-select-sheet: Вибрати аркуш
+      label-select-output-format: 'Виберіть формат виводу:'
+      placeholder-select-format: Виберіть формат
+      label-nestify-a-b-c-to-nested-objects: Вкладення (&#39;abc&#39; для вкладених об&#39;єктів)
+      label-table-name: 'Назва таблиці:'
+      title-converted-data: Конвертовані дані
+      tag-convert: Конвертувати
+
+  markdown-editor:
+    title: Редактор Markdown
+    description: Простий редактор Markdown

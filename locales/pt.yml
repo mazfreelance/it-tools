@@ -74,3 +74,73 @@ tools:
   markdown-diff:
     title: Markdown diff
     description: Compare two Markdown documents and see the differences between them.
+
+  json-sort-master:
+    title: 'Mestre de classificação JSON'
+    description: 'Ordene seu JSON por chaves e valores.'
+
+  csv-to-json:
+    title: CSV para JSON
+    description: Converte CSV para JSON com detecção automática de cabeçalhos.
+    texts:
+      message-provided-csv-is-not-valid: O CSV fornecido não é válido.
+      label-typed-values: Valores digitados
+      input-label-your-raw-csv: Seu CSV bruto
+      input-placeholder-paste-your-raw-csv-here: Cole seu CSV bruto aqui...
+      output-label-json-version-of-your-csv: Versão JSON do seu CSV
+
+  csv-to-data:
+    title: CSV para dados
+    description: >-
+      Converta arquivo CSV para JSON, YAML, CSV, SQL INSERT, XML, Markdown ou
+      XLSX
+    texts:
+      label-json: JSON
+      label-yaml: YAML
+      label-sql-insert: INSERÇÃO SQL
+      label-csv-comma: CSV (vírgula)
+      label-csv-semicolon: CSV (ponto e vírgula)
+      label-csv-tab: CSV (guia)
+      label-markdown: Redução de preço
+      label-xml: XML
+      title-csv-converter: Conversor CSV
+      label-file: Arquivo
+      label-content: Contente
+      title-drag-and-drop-a-csv-file-here-or-click-to-select-a-file: Arraste e solte um arquivo CSV aqui ou clique para selecionar um arquivo
+      label-paste-your-csv-content: 'Cole seu conteúdo CSV:'
+      placeholder-your-csv: Seu CSV...
+      label-typed-values: Valores digitados
+      label-nestify-a-b-c-to-nested-objects: Nestify (&#39;abc&#39; para objetos aninhados)
+      label-select-output-format: 'Selecione o formato de saída:'
+      placeholder-select-format: Selecione o formato
+      label-table-name: 'Nome da tabela:'
+      title-converted-data: Dados convertidos
+      tag-convert: Converter
+      label-xlsx: XLSX
+
+  excel-to-data:
+    title: Excel para dados
+    description: Converta arquivo XLSX para JSON, YAML, CSV, SQL INSERT, XML ou Markdown
+    texts:
+      label-json: JSON
+      label-yaml: YAML
+      label-sql-insert: INSERÇÃO SQL
+      label-csv-comma: CSV (vírgula)
+      label-csv-semicolon: CSV (ponto e vírgula)
+      label-csv-tab: CSV (guia)
+      label-markdown: Redução de preço
+      label-xml: XML
+      title-xlsx-converter: Conversor XLSX
+      title-drag-and-drop-a-xlsx-here-or-click-to-select-a-file: Arraste e solte um XLSX aqui ou clique para selecionar um arquivo
+      label-select-sheet-to-use: 'Selecione a planilha a ser usada:'
+      placeholder-select-sheet: Selecionar folha
+      label-select-output-format: 'Selecione o formato de saída:'
+      placeholder-select-format: Selecione o formato
+      label-nestify-a-b-c-to-nested-objects: Nestify (&#39;abc&#39; para objetos aninhados)
+      label-table-name: 'Nome da tabela:'
+      title-converted-data: Dados convertidos
+      tag-convert: Converter
+
+  markdown-editor:
+    title: Editor de Markdown
+    description: Editor de Markdown Simples

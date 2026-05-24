@@ -385,3 +385,73 @@ tools:
   text-to-binary:
     title: Chuyển đổi văn bản thành nhị phân ASCII
     description: Chuyển đổi văn bản thành biểu diễn nhị phân ASCII của nó và ngược lại.
+
+  json-sort-master:
+    title: Sắp xếp JSON
+    description: Sắp xếp JSON của bạn theo các khóa và giá trị.
+
+  csv-to-json:
+    title: CSV sang JSON
+    description: Chuyển đổi CSV sang JSON với tính năng tự động phát hiện tiêu đề.
+    texts:
+      message-provided-csv-is-not-valid: CSV được cung cấp không hợp lệ.
+      label-typed-values: Giá trị đã nhập
+      input-label-your-raw-csv: CSV thô của bạn
+      input-placeholder-paste-your-raw-csv-here: Dán tệp CSV thô của bạn vào đây...
+      output-label-json-version-of-your-csv: Phiên bản JSON của CSV của bạn
+
+  csv-to-data:
+    title: Csv sang Dữ liệu
+    description: >-
+      Chuyển đổi tệp CSV sang JSON, YAML, CSV, SQL INSERT, XML, Markdown hoặc
+      XLSX
+    texts:
+      label-json: JSON
+      label-yaml: YAML
+      label-sql-insert: CHÈN SQL
+      label-csv-comma: CSV (dấu phẩy)
+      label-csv-semicolon: CSV (dấu chấm phẩy)
+      label-csv-tab: CSV (tab)
+      label-markdown: Giảm giá
+      label-xml: XML
+      title-csv-converter: Bộ chuyển đổi CSV
+      label-file: Tài liệu
+      label-content: Nội dung
+      title-drag-and-drop-a-csv-file-here-or-click-to-select-a-file: Kéo và thả tệp CSV vào đây hoặc nhấp để chọn tệp
+      label-paste-your-csv-content: 'Dán nội dung CSV của bạn:'
+      placeholder-your-csv: CSV của bạn...
+      label-typed-values: Giá trị đã nhập
+      label-nestify-a-b-c-to-nested-objects: Nestify (&#39;abc&#39; thành các đối tượng lồng nhau)
+      label-select-output-format: 'Chọn định dạng đầu ra:'
+      placeholder-select-format: Chọn định dạng
+      label-table-name: 'Tên bảng:'
+      title-converted-data: Dữ liệu đã chuyển đổi
+      tag-convert: Chuyển thành
+      label-xlsx: XLSX
+
+  excel-to-data:
+    title: Excel thành dữ liệu
+    description: Chuyển đổi tệp XLSX sang JSON, YAML, CSV, SQL INSERT, XML hoặc Markdown
+    texts:
+      label-json: JSON
+      label-yaml: YAML
+      label-sql-insert: CHÈN SQL
+      label-csv-comma: CSV (dấu phẩy)
+      label-csv-semicolon: CSV (dấu chấm phẩy)
+      label-csv-tab: CSV (tab)
+      label-markdown: Giảm giá
+      label-xml: XML
+      title-xlsx-converter: Bộ chuyển đổi XLSX
+      title-drag-and-drop-a-xlsx-here-or-click-to-select-a-file: Kéo và thả XLSX vào đây hoặc nhấp để chọn tệp
+      label-select-sheet-to-use: 'Chọn Trang tính để sử dụng:'
+      placeholder-select-sheet: Chọn tờ
+      label-select-output-format: 'Chọn định dạng đầu ra:'
+      placeholder-select-format: Chọn định dạng
+      label-nestify-a-b-c-to-nested-objects: Nestify (&#39;abc&#39; thành các đối tượng lồng nhau)
+      label-table-name: 'Tên bảng:'
+      title-converted-data: Dữ liệu đã chuyển đổi
+      tag-convert: Chuyển thành
+
+  markdown-editor:
+    title: Trình chỉnh sửa Markdown
+    description: Trình chỉnh sửa Markdown đơn giản

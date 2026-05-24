@@ -391,3 +391,71 @@ tools:
   text-to-binary:
     title: 文本到 ASCII 二进制
     description: 将文本转换为其 ASCII 二进制表示形式，反之亦然。
+
+  json-sort-master:
+    title: JSON排序大师
+    description: 按键和值对您的JSON进行排序。
+
+  csv-to-json:
+    title: CSV转JSON
+    description: 自动检测表头，将CSV转换为JSON。
+    texts:
+      message-provided-csv-is-not-valid: 提供的CSV无效。
+      label-typed-values: 已输入的值
+      input-label-your-raw-csv: 您的原始CSV
+      input-placeholder-paste-your-raw-csv-here: 在此粘贴您的原始CSV...
+      output-label-json-version-of-your-csv: 您的CSV的JSON版本
+
+  csv-to-data:
+    title: CSV转数据
+    description: 将CSV文件转换为JSON、YAML、CSV、SQL INSERT、XML或Markdown
+    texts:
+      label-json: JSON
+      label-yaml: YAML
+      label-sql-insert: SQL 插入
+      label-csv-comma: CSV（逗号分隔）
+      label-csv-semicolon: CSV（分号分隔）
+      label-csv-tab: CSV（制表符分隔）
+      label-markdown: Markdown
+      label-xml: XML
+      title-csv-converter: CSV转换器
+      label-file: 文件
+      label-content: 内容
+      title-drag-and-drop-a-csv-file-here-or-click-to-select-a-file: 拖放CSV文件至此或点击选择文件
+      label-paste-your-csv-content: 粘贴您的CSV内容：
+      placeholder-your-csv: 您的CSV...
+      label-typed-values: 已输入值
+      label-nestify-a-b-c-to-nested-objects: 嵌套化（将'a.b.c'转为嵌套对象）
+      label-select-output-format: 选择输出格式：
+      placeholder-select-format: 选择格式
+      label-table-name: 表名：
+      title-converted-data: 转换后数据
+      tag-convert: 转换
+      label-xlsx: XLSX
+
+  excel-to-data:
+    title: Excel转数据
+    description: 将XLSX文件转换为JSON、YAML、CSV、SQL INSERT、XML或Markdown
+    texts:
+      label-json: JSON
+      label-yaml: YAML
+      label-sql-insert: SQL 插入
+      label-csv-comma: CSV（逗号分隔）
+      label-csv-semicolon: CSV（分号分隔）
+      label-csv-tab: CSV（制表符分隔）
+      label-markdown: Markdown
+      label-xml: XML
+      title-xlsx-converter: XLSX转换器
+      title-drag-and-drop-a-xlsx-here-or-click-to-select-a-file: 拖放XLSX文件至此或点击选择文件
+      label-select-sheet-to-use: 选择工作表：
+      placeholder-select-sheet: 选择工作表
+      label-select-output-format: 选择输出格式：
+      placeholder-select-format: 选择格式
+      label-nestify-a-b-c-to-nested-objects: 嵌套化（将'a.b.c'转为嵌套对象）
+      label-table-name: 表名：
+      title-converted-data: 转换后数据
+      tag-convert: 转换
+
+  markdown-editor:
+    title: Markdown编辑器
+    description: 简单的Markdown编辑器

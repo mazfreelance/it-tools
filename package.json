@@ -3,6 +3,11 @@
   "type": "module",
   "version": "2024.10.22-7ca5933",
   "packageManager": "pnpm@9.11.0",
+  "pnpm": {
+    "overrides": {
+      "@unhead/vue>@vueuse/shared": "10.0.0"
+    }
+  },
   "description": "Collection of handy online tools for developers, with great UX. ",
   "author": "Corentin Th <corentin.thomasset74+it-tools@gmail.com> (https://corentin.tech)",
   "license": "GNU GPLv3",
@@ -78,6 +83,7 @@
     "markdown-it": "^14.0.0",
     "marked": "^10.0.0",
     "mathjs": "^11.9.1",
+    "md-editor-v3": "4.21.3",
     "mime-types": "^2.1.35",
     "monaco-editor": "^0.43.0",
     "naive-ui": "^2.35.0",
@@ -101,6 +107,7 @@
     "vue-shadow-dom": "^4.2.0",
     "vue-tsc": "^1.8.1",
     "vuedraggable": "^4.1.0",
+    "xlsx": "^0.18.5",
     "xml-formatter": "^3.3.2",
     "xml-js": "^1.6.11",
     "yaml": "^2.2.1"

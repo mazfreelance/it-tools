@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { Copy } from '@vicons/tabler';
 import { useElementSize } from '@vueuse/core';
+import { toRefs, ref, computed } from 'vue';
 import hljs from 'highlight.js/lib/core';
 import jsonHljs from 'highlight.js/lib/languages/json';
 import sqlHljs from 'highlight.js/lib/languages/sql';
@@ -8,7 +9,7 @@ import xmlHljs from 'highlight.js/lib/languages/xml';
 import yamlHljs from 'highlight.js/lib/languages/yaml';
 import iniHljs from 'highlight.js/lib/languages/ini';
 import markdownHljs from 'highlight.js/lib/languages/markdown';
-import { useCopy } from '@/composable/copy';
+import { useCopy } from '../composable/copy';
 
 const props = withDefaults(
   defineProps<{
